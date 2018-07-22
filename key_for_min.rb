@@ -3,7 +3,7 @@
 require'pry'
 def key_for_min_value(name_hash)
   binding.pry
-  new = name_hash.map {|key, value| value}
+  new = name_hash.each {|key, value| value}
   min = name.min 
   puts min
 end
