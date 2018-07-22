@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
   #binding.pry
   sorted = []
   min = sorted_v.min
-  name_hash.map {|n,v| sorted_v << v}
+  name_hash.map {|n,v| sorted << v}
   name_hash[min]
 end
