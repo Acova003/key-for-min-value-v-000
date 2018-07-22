@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 require'pry'
 def key_for_min_value(name_hash)
-  #binding.pry
+  binding.pry
   sorted = []
   min = sorted.min
   name_hash.map {|n,v| sorted << v}
