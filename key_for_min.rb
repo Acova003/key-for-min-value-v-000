@@ -4,5 +4,6 @@ require'pry'
 def key_for_min_value(name_hash)
   binding.pry
   new = name_hash.map {|n,v| v}
-  min = name.min
+  min = name.min 
+  puts min
 end
