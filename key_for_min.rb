@@ -11,4 +11,5 @@ def key_for_min_value(name_hash)
   else 
     nil
   end 
+  name_hash[new[1]]
 end
