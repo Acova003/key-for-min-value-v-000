@@ -7,4 +7,5 @@ def key_for_min_value(name_hash)
   if new[0] < new[1] && new[0] < new[2]
     name_hash[name[0]]
   elsif name[1] < name[0] && name[1] < name[3]
+    name_hash[name[1]]
 end
