@@ -6,9 +6,9 @@ def key_for_min_value(name_hash)
   new = name_hash.map {|key, value| value}
   if new[0] > new[1]
     new[0], new[1] = new[1], new[0]
-  elsif new[3]
-    puts min
+  elsif new[3] < new[2] && new[3] < new[1]
+    new[1], new[3] = new[3], new[1]
   else 
-    nil 
+    nil
   end 
 end
