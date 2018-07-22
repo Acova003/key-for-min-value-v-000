@@ -5,5 +5,9 @@ def key_for_min_value(name_hash)
   #binding.pry
   new = name_hash.each {|key, value| value}
   min = new.min 
-  name_hash[min]
+  if new.length > 0 
+    name_hash[min]
+  else 
+    nil 
+  end 
 end
