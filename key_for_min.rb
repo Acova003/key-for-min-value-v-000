@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   new = name_hash.map {|key, value| value}
   min = new.min 
   if new.length > 0 
-    name_hash[min]
+    puts min
   else 
     nil 
   end 
