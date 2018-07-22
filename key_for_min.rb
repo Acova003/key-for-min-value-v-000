@@ -3,8 +3,6 @@
 require'pry'
 def key_for_min_value(name_hash)
   binding.pry
-  sorted = []
-  min = sorted.min
-  name_hash.map {|n,v| sorted << v}
+  new = name_hash.map {|n,v| v}
   name_hash[min]
 end
