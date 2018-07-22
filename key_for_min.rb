@@ -3,7 +3,7 @@
 require'pry'
 def key_for_min_value(name_hash)
   return nil if name_hash.nil?
-  new_keys = ""
+  keys = ""
   values = "" 
   
 end
