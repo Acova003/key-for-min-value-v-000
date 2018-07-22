@@ -6,5 +6,4 @@ def key_for_min_value(name_hash)
   name_hash.map {|n,v| sorted_v << v}
   min = sorted_v.min
   name_hash[min]
-  end
 end
